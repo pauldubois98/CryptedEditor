@@ -1,0 +1,48 @@
+h1
+{
+	color:red;
+	size: 2em;
+	text-align: center;
+	margin: 0.5em;
+}
+h1:hover
+{
+	border: 0.3em darkgrey solid;
+	margin: 0.2em;
+}
+h1:active
+{
+	border: 0.3em lightgrey solid;
+	color:grey;
+	margin: 0.2em;
+}
+h4
+{
+	background-color: black;
+	color:white;
+	text-align: center;
+	margin: 0.4em;
+	size: 0.4em;
+	width:20em;
+}
+
+
+
+
+p
+{
+	size: 0.8em;
+
+}
+body
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#autors
+{
+	width: 15em;
+	size: 0.18em;
+	text-align: center;
+}

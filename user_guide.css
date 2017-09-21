@@ -1,0 +1,80 @@
+body
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+header
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+h1
+{
+	color:red;
+	size: 2em;
+	text-align: center;
+	margin: 0.5em;
+}
+h1:hover
+{
+	border: 0.3em darkgrey solid;
+	margin: 0.2em;
+}
+h1:active
+{
+	border: 0.3em lightgrey solid;
+	color:grey;
+	margin: 0.2em;
+}
+h4
+{
+	background-color: black;
+	color:white;
+	text-align: center;
+	margin: 0.4em;
+	size: 0.4em;
+	width:20em;
+}
+
+
+
+
+
+
+section
+{
+	width:45%;
+}
+
+
+
+
+
+
+p
+{
+	text-align: justify;
+}
+ul
+{
+	text-align: justify;
+}
+
+p:hover, ul:hover
+{
+	border-left: 3px darkgrey solid;
+}
+p:active, ul:active
+{
+	border-left: 3px lightgrey solid;
+	color:grey;
+}
+
+
+
+
+
